@@ -27,6 +27,7 @@ plot(subpowercons$datetime, subpowercons$Sub_metering_1
      , ylim = yrange
      , type="l"
      , ylab = "Energy sub metering"
+     , xlab = ""
      , cex.axis = .8
      , cex.lab=.8
      , cex.main=.8

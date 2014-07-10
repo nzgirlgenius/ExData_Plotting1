@@ -23,6 +23,7 @@ subpowercons <- cbind(subpowercons, datetime)
 plot(subpowercons$datetime, subpowercons$Global_active_power
      , type="l"
      , ylab = "Global Active Power (kilowatts)"
+     , xlab = ""
      , cex.axis = .8
      , cex.lab=.8
      , cex.main=.8
